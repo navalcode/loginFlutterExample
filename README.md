@@ -1,18 +1,26 @@
-# Flutter login and home screens
+# Flutter account-screen exercise
 
 [English](#overview) · [Español](#resumen)
 
 ## Overview
 
-Flutter exercise with login, registration and home screens.
+Flutter learning project with separate login, registration and home pages, plus models for the form inputs. Screen names describe the exercise structure, not a verified account service.
 
-An earlier learning exercise. The source is preserved with its original toolchain; compatibility with current versions has not been revalidated.
+The SDK constraint is in pubspec.yaml. Form behavior, navigation and any authentication integration still need execution checks; do not use real credentials to explore it.
+
+- [`login_page.dart`](lib/pages/login_page.dart)
+- [`register_page.dart`](lib/pages/register_page.dart)
+- [`home_page.dart`](lib/pages/home_page.dart)
+
+[pubspec.yaml](pubspec.yaml): The package file records the SDK constraint, dependencies and assets.
 
 ## Resumen
 
-Ejercicio Flutter con pantallas de acceso, registro e inicio.
+Proyecto de aprendizaje Flutter con pantallas de acceso, registro e inicio y modelos para los campos. Los nombres describen la estructura del ejercicio, sin acreditar un servicio de cuentas validado.
 
-Ejercicio de una etapa anterior de aprendizaje. Se conserva con sus herramientas originales; no se ha vuelto a validar con versiones actuales.
+La restricción de SDK está en pubspec.yaml. Faltan comprobaciones ejecutadas de formularios, navegación y cualquier integración de autenticación; no uses credenciales reales para explorarlo.
+
+Consulta los archivos enlazados arriba para seguir la implementación. [pubspec.yaml](pubspec.yaml): El archivo del paquete recoge SDK, dependencias y recursos.
 
 <details>
 <summary>Original documentation and credits · Documentación y créditos originales</summary>
